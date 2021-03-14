@@ -6,8 +6,12 @@ Your task is to implement function `toReadable` that converts given number, to r
 For example:
 ```js
 toReadable(1); // Will return 'one'
-toReadable(997); //will return 'nine hundred ninety seven'
+toReadable(997); //will return 'nine hundred ninety-seven'
 ```
+Please note, numbers from 21 to 99 should be hyphenated. 
+For ex.: twenty-one, fourty-two, sixty-nine.
+The hyphens-in-numbers rule applies even when the compound number is preceded by other numbers that do not require hyphens:  
+'one hundred and thirty-three', 'six hundred seventy-two'.
 
 You can find even more examples in `test.js`
 
